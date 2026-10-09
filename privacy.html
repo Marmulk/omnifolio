@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy · Omnifolio</title>
+<meta name="description" content="Omnifolio's privacy policy: no account, no server; your data stays on your device and in your private iCloud.">
+<meta name="theme-color" content="#1f3a93">
+<link rel="icon" type="image/png" href="icone-64.png">
+<link rel="apple-touch-icon" href="icone-180.png">
+<link rel="alternate" hreflang="fr" href="confidentialite.html">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="toile">
+  <div class="barre">
+    <a class="marque" href="./"><img src="icone-180.png" alt=""><span class="nom">Omnifolio</span></a>
+    <nav class="nav" aria-label="Pages"><a href="./">Home</a><a href="privacy.html" aria-current="page">Privacy</a><a href="assistance.html#en">Support</a></nav>
+  </div>
+  <div class="une" style="grid-template-columns: 1fr; padding-bottom: 56px">
+    <div>
+      <h1>Privacy policy</h1>
+      <span class="filet" aria-hidden="true"></span>
+      <p class="sous">No account, no server: your ledger stays with you. Here is exactly what leaves your device, and why. <a href="confidentialite.html" lang="fr" style="color: var(--cover-ink)">Version française</a></p>
+    </div>
+  </div>
+</header>
+
+<main>
+  <article class="feuille texte">
+    <p class="date">Effective October 9, 2026.</p>
+
+    <h2>Summary</h2>
+    <ul>
+      <li>Omnifolio has no account and no server. The developer neither receives nor sees your data.</li>
+      <li>Your ledger is stored on your device and, if you turn it on, in your private iCloud.</li>
+      <li>The app contacts public price and image sources, sending only what they need (for example the name of a skin or a stock ticker), and only the services you connect yourself (Gmail, Steam, Alpha Vantage).</li>
+      <li>No ads, no analytics, no tracking, no sale of data.</li>
+    </ul>
+
+    <h3>Who is responsible</h3>
+    <p>Omnifolio is published by Magomed Mazaev, an independent developer. For any question about this policy or your data, write through the <a href="assistance.html#en">support page</a>.</p>
+
+    <h3>What the app stores, and where</h3>
+    <p>Everything you enter in Omnifolio makes up your ledger: your holdings, purchases, subscriptions, invoices, photos, monthly statements and settings. It is stored on your device. If iCloud is enabled for Omnifolio, it is also copied to the private database of your iCloud account (CloudKit), so that your iPhone, iPad and Mac share the same ledger. That private database is only accessible with your Apple account; the developer has no access to it. Keys and tokens you give the app (Gmail, Alpha Vantage) stay in the device keychain.</p>
+
+    <h3>What leaves your device</h3>
+    <p>To show prices, exchange rates and images, the app contacts the services below, and only them (the same list is shown in the app, behind the padlock). Like any connection, each also receives your device's IP address; its own privacy policy applies.</p>
+    <table class="sorties">
+      <thead><tr><th scope="col">Service</th><th scope="col">What it receives</th><th scope="col">When</th></tr></thead>
+      <tbody>
+        <tr><td>Frankfurter</td><td>The currencies to convert (ECB rates)</td><td>For purchases in a foreign currency</td></tr>
+        <tr><td>CoinGecko</td><td>The identifiers of the cryptocurrencies you hold</td><td>At each update, and for their logos</td></tr>
+        <tr><td>CSFloat</td><td>The exact name of a skin</td><td>After an update, one skin at a time</td></tr>
+        <tr><td>Steam</td><td>Your Steam ID (to read your public inventory) or the name of a skin</td><td>If you sign in with Steam, and to search for a skin or its image</td></tr>
+        <tr><td>Alpha Vantage</td><td>A stock ticker and your Alpha Vantage key</td><td>At each update, if you provided a key</td></tr>
+        <tr><td>GOAT</td><td>The name or style code of a pair, its size and condition</td><td>When you search for a pair, update it, or pick its image</td></tr>
+        <tr><td>Financial Modeling Prep</td><td>A stock ticker</td><td>For its logo</td></tr>
+        <tr><td>TCGdex, Scryfall, YGOPRODeck</td><td>The name, set or number read on a card</td><td>When you sort or search for a card, and at each update</td></tr>
+        <tr><td>Bulbapedia</td><td>Nothing but the address of a reference image</td><td>Once, the first time you photograph the back of a card</td></tr>
+        <tr><td>Google (Gmail)</td><td>Your sign-in, then a search for receipts and parcels</td><td>If you connect Gmail, at each refresh (see below)</td></tr>
+        <tr><td>Apple (iCloud)</td><td>Your ledger, in your private database</td><td>If iCloud is enabled for the app</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Gmail</h3>
+    <p>Connecting Gmail is optional. If you do, Omnifolio asks Google for read-only access to your mail (<code>https://www.googleapis.com/auth/gmail.readonly</code>), in a sign-in window run by Apple and Google: the app never sees your password. It uses this access for one purpose only: finding your purchase receipts and parcel notifications from the last 90 days. It reads the sender, subject and date of the messages found, then the text and attached PDF invoice of those that are receipts, on your device, to fill in the merchant, amount, date and items of a purchase. The receipt filled in this way, and its invoice, are added to your ledger.</p>
+    <p>No message is ever modified, sent or deleted. Nothing that is read is transferred to the developer or to any third party, used for advertising, or used to train artificial intelligence models, and no human reads it. The access token stays in your device keychain; “Délier Gmail” (disconnect) in the app revokes it with Google and deletes it. You can also remove access from <a href="https://myaccount.google.com/permissions">your Google account</a>.</p>
+    <p>Omnifolio's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+    <h3>Steam</h3>
+    <p>Signing in with Steam happens on Steam's own page: the app never sees your password and only receives your public Steam ID, which it uses to read your public inventory and find your skins.</p>
+
+    <h3>Camera and photos</h3>
+    <p>Photos you take to read a card, a shoe box label or an invoice are analyzed on your device and are not sent anywhere. Those you choose to keep (a photo of a pair, an invoice) are added to your ledger.</p>
+
+    <h3>Face ID and Touch ID</h3>
+    <p>The ledger lock goes through the system: the app only receives “success” or “failure”, never your biometric data.</p>
+
+    <h3>Notifications</h3>
+    <p>Reminders (an upcoming charge, the end of a return window) are local notifications scheduled on your device. When iCloud is enabled, Apple may wake the app with a silent notification to update your ledger; it does not contain your data.</p>
+
+    <h3>Support and feedback</h3>
+    <p>If you report a bug or an idea, your message opens on the <a href="assistance.html#en">support page</a> and is sent when you tap “Envoyer” (Send). It contains your text, what the app attaches to help understand it (the screen shown, the device model, the app and system versions, its latest errors) and, if you provide it, your email address for a reply. The form forwards it by email to the developer through the Web3Forms service. It is used only to reply and to fix the app, kept as long as needed, and deleted on request.</p>
+
+    <h3>What the app does not do</h3>
+    <p>No advertising, no analytics, no cross-app or cross-site tracking, no sale or sharing of data, no third-party analytics tools. The app does not use any artificial intelligence service on your data.</p>
+
+    <h3>Children</h3>
+    <p>Omnifolio is not directed to children and does not knowingly collect any data about them.</p>
+
+    <h3>Retention and deletion</h3>
+    <ul>
+      <li>Deleting the app erases the ledger from your device.</li>
+      <li>To also erase the iCloud copy: Settings › your name › iCloud › Storage › Omnifolio › Delete Data.</li>
+      <li>Gmail and Steam can be disconnected from the app; Gmail also from your Google account.</li>
+    </ul>
+
+    <h3>Your rights</h3>
+    <p>Your data stays with you: you can view, export and delete it from the app. For a message sent to support, you can ask to view, correct or delete it through the support page. You may also lodge a complaint with your data protection authority (in France, the CNIL).</p>
+
+    <h3>Changes</h3>
+    <p>If this policy changes, the new version will be published here with its date. A change that would widen what the app sends would also be announced in the app.</p>
+  </article>
+</main>
+
+<footer>
+  <a href="./">Omnifolio</a>
+  <a href="confidentialite.html" lang="fr">Confidentialité (français)</a>
+  <a href="assistance.html#en">Support</a>
+</footer>
+</body>
+</html>
