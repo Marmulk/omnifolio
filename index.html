@@ -2,73 +2,11 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Omnifolio · Ton livret, chez toi</title>
-<meta name="description" content="Omnifolio est un livret de patrimoine et de dépenses pour iPhone, iPad et Mac. Tes données restent sur ton appareil et dans ton iCloud privé.">
-<meta name="theme-color" content="#1f3a93">
-<link rel="icon" type="image/png" href="icone-64.png">
-<link rel="apple-touch-icon" href="icone-180.png">
-<link rel="canonical" href="https://marmulk.github.io/omnifolio/">
-<link rel="stylesheet" href="style.css">
+<title>Omnifolio</title>
+<meta http-equiv="refresh" content="0; url=https://getomnifolio.com/">
+<link rel="canonical" href="https://getomnifolio.com/">
+<meta name="robots" content="noindex">
+<script>location.replace("https://getomnifolio.com/" + location.hash);</script>
 </head>
-<body>
-<header class="toile">
-  <div class="barre">
-    <a class="marque" href="./"><img src="icone-180.png" alt=""><span class="nom">Omnifolio</span></a>
-    <nav class="nav" aria-label="Pages"><a href="./" aria-current="page">Accueil</a><a href="confidentialite.html">Confidentialité</a><a href="assistance.html">Assistance</a></nav>
-  </div>
-  <div class="une">
-    <img src="icone-256.png" alt="L'icône d'Omnifolio : un livret de toile bleue qui s'ouvre sur une page tamponnée">
-    <div>
-      <h1>Omnifolio</h1>
-      <span class="filet" aria-hidden="true"></span>
-      <p class="accroche">Ton livret, chez toi.</p>
-      <p class="sous">Ce que tu possèdes et ce que tu dépenses, dans un seul livret, pour iPhone, iPad et Mac. Rien ne part sur un serveur à nous : il n'y en a pas.</p>
-      <span class="bientot">Bientôt sur l'App Store</span>
-    </div>
-  </div>
-</header>
-
-<main>
-  <section class="feuille" aria-labelledby="t-quoi">
-    <p class="kicker">Ce qu'il fait</p>
-    <h2 id="t-quoi">Trois pages, une seule question : où en es-tu ?</h2>
-    <div class="trois">
-      <div><h3>Patrimoine</h3><p>Tes positions, skins CS2, cryptos, actions, paires de sneakers, montres et cartes, avec leurs cotes relevées auprès des sources publiques et la valeur du jour en euros.</p></div>
-      <div><h3>Dépenses</h3><p>Un carnet d'achats qui lit tes factures, suit tes abonnements, prévient des prélèvements, des retours possibles et des garanties, et fait le bilan de chaque mois.</p></div>
-      <div><h3>Aujourd'hui</h3><p>Ce qui bouge, ce qui tombe, ce qu'il faut décider : une page pour le jour, sans tableau de bord à déchiffrer.</p></div>
-    </div>
-  </section>
-
-  <section class="feuille texte" aria-labelledby="t-prive">
-    <p class="kicker">Ce qu'il ne fait pas</p>
-    <h2 id="t-prive">Il ne garde rien ailleurs que chez toi</h2>
-    <p>Omnifolio n'a ni compte ni serveur. Ton livret vit sur ton appareil et, si tu l'actives, dans ton iCloud privé, pour passer de l'iPhone à l'iPad et au Mac. Le développeur n'y a pas accès. L'app ne détient ni argent ni clés, ne passe aucun ordre, n'affiche aucune publicité et ne mesure rien de ce que tu fais.</p>
-    <p>Elle contacte seulement les sources de cotes et de photos dont elle a besoin, et la liste exacte est écrite dans l'app, derrière le cadenas. Face ID ou Touch ID ouvrent le livret.</p>
-    <p><a href="confidentialite.html">Lire la politique de confidentialité</a></p>
-  </section>
-
-  <section class="feuille texte" aria-labelledby="t-gmail">
-    <p class="kicker">Gmail, si tu le relies</p>
-    <h2 id="t-gmail">Retrouver tes reçus, en lecture seule</h2>
-    <p>Tu peux relier ton compte Gmail pour qu'Omnifolio retrouve tes reçus d'achat et tes avis de colis. L'accès demandé est la lecture seule (<code>gmail.readonly</code>) : l'app cherche les reçus et les colis des 90 derniers jours, les lit sur ton appareil pour en tirer la boutique, le montant, la date et les articles, et n'écrit, n'envoie ni ne supprime aucun mail.</p>
-    <p>Rien de ce qu'elle lit n'est transmis au développeur ni à un tiers, ni utilisé pour de la publicité ou pour entraîner une intelligence artificielle. Le jeton d'accès reste dans le trousseau de ton appareil ; « Délier Gmail » le révoque auprès de Google.</p>
-  </section>
-
-  <section class="feuille texte" lang="en" aria-labelledby="t-en">
-    <p class="kicker">In English</p>
-    <h2 id="t-en">A private ledger for what you own and what you spend</h2>
-    <p>Omnifolio is a personal ledger app for iPhone, iPad and Mac. It tracks your holdings (collectibles, crypto, stocks, sneakers, watches, cards) with prices from public sources, and your spending (purchases, subscriptions, invoices, monthly statements). There is no account and no server: your data stays on your device and in your private iCloud, which the developer cannot access.</p>
-    <p>If you choose to connect Gmail, Omnifolio requests read-only access (<code>https://www.googleapis.com/auth/gmail.readonly</code>) to find purchase receipts and parcel notifications from the last 90 days. Messages are read on your device only, to fill in the merchant, amount, date and items of a purchase; nothing is sent to the developer or any third party, and no message is ever modified, sent or deleted. Omnifolio's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
-    <p><a href="privacy.html">Privacy policy</a> · <a href="assistance.html#en">Support</a></p>
-  </section>
-</main>
-
-<footer>
-  <span>Omnifolio</span>
-  <a href="confidentialite.html">Confidentialité</a>
-  <a href="privacy.html">Privacy policy</a>
-  <a href="assistance.html">Assistance</a>
-</footer>
-</body>
+<body><p>Omnifolio a déménagé : <a href="https://getomnifolio.com/">https://getomnifolio.com/</a></p></body>
 </html>
